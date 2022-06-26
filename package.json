@@ -1,7 +1,7 @@
 {
-  "name": "dfr",
+  "name": "xxx",
   "version": "1.0.0",
-  "description": "data friends reconstruction",
+  "description": "antd import error, webpack chunk",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development::test webpack-dev-server",

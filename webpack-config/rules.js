@@ -2,7 +2,7 @@
  * @Author: ryyyyy
  * @Date: 2022-06-21 17:46:28
  * @LastEditors: ryyyyy
- * @LastEditTime: 2022-06-24 15:29:53
+ * @LastEditTime: 2022-06-26 12:02:19
  * @FilePath: /antd-error/webpack-config/rules.js
  * @Description:
  *
@@ -64,11 +64,7 @@ module.exports = (projectInfo) => {
       test: /\.(js|jsx)$/,
       use: "babel-loader",
       exclude: /node_modules/,
-    },
-    // {
-    //     test: /.html$/,
-    //     use: 'html-withimg-loader'
-    // }
+    }
   ];
   return results;
 };
